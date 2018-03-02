@@ -20,6 +20,7 @@ max-width: 120px;
 max-height: 120px;
 float: left;
 }
+
 .name {
 float: right;
 text-align: right;
@@ -28,6 +29,7 @@ font-family:"Montserrat";
 height: 20%;
 margin-bottom: 0;
 }
+
 .job {
 float: right;
 font-family:'Coiny';
@@ -36,4 +38,14 @@ text-align: right;
 width: 70%;
 color: #ada397;
 margin-top: 0;
+}
+
+.WhoIamHeading{
+color: #ada397;
+font-family:'Coiny';
+}
+
+.WhoPar{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.5em;
 }
