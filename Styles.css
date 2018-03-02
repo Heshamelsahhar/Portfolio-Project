@@ -70,8 +70,8 @@ flex-wrap: wrap;
 }
 
 .Pixel {
-    max-width:284px;
-    max-height:226px;
+    max-width:264px;
+    max-height:214px;
 }
 
 .Link1{
@@ -88,8 +88,8 @@ flex-wrap: wrap;
 }
 
 .Cheetah {
-    width:284px;
-    height:226px;
+    width:264px;
+    height:214px;
 }
 
 .Link2{
@@ -101,7 +101,35 @@ flex-wrap: wrap;
 }
 
 .Soon {
-    width:284px;
-    height:226px;
+    width:264px;
+    height:214px;
+}
+@media screen and (max-width:350px)
+{
+    .name {
+        font-size: 15px;
+       
+    }
+    .job {
+        font-size: 12px;
+    }
+}
+@media screen and (min-width:351px) and (max-width:550px)
+{
+    .name {
+        font-size: 20px;
+    }
+    .job {
+        font-size: 18px;
+    }
+}
+@media screen and (min-width:1074px)
+{
+    .Container{
+        width:900px;
+    }
+    .Header{
+        width: 900px;
+    }
 }
 
