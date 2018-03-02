@@ -40,12 +40,68 @@ color: #ada397;
 margin-top: 0;
 }
 
-.WhoIamHeading{
+.WhoIamHeading {
 color: #ada397;
 font-family:'Coiny';
 }
 
-.WhoPar{
+.WhoPar {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 1.5em;
 }
+
+.ProjectsHeading{
+    color: #ada397;
+    font-family:'Coiny';
+    width: 100%;
+}
+
+.Projects {
+display: flex;
+flex-wrap: wrap;
+}
+
+.FirstBlock {
+
+    margin-right: 3%;
+    order: 0;
+    text-align: center;
+    font-family:"Montserrat";
+}
+
+.Pixel {
+    max-width:284px;
+    max-height:226px;
+}
+
+.Link1{
+    text-decoration: none;
+    color: black;
+}
+
+
+.SecondBlock {
+    margin-right: 3%;
+    order:1;
+    text-align: center;
+    font-family:"Montserrat";
+}
+
+.Cheetah {
+    width:284px;
+    height:226px;
+}
+
+.Link2{
+    text-decoration: none;
+    color: black;
+}
+.ThirdBlock {
+    order:2;
+}
+
+.Soon {
+    width:284px;
+    height:226px;
+}
+
