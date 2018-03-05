@@ -4,8 +4,7 @@ img {
 
 .Header {
     width: 80%;
-    margin-right: 5%;
-    margin-left: 15%;
+    margin:auto;
     overflow: auto;
     border-bottom: 4px solid #ada397;
     margin-bottom: 1.5%;
@@ -14,8 +13,7 @@ img {
 
 .Container {
     width: 80%;
-    margin-right: 5%;
-    margin-left: 15%;
+    margin: auto
 }
 
 .Logo {
