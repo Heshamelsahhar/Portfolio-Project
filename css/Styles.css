@@ -63,11 +63,10 @@ img {
 .Projects {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .FirstBlock {
-
-    margin-right: 3%;
     order: 0;
     text-align: center;
     font-family:"Montserrat";
@@ -85,7 +84,6 @@ img {
 
 
 .SecondBlock {
-    margin-right: 3%;
     order: 1;
     text-align: center;
     font-family: "Montserrat";
@@ -117,6 +115,7 @@ img {
     .job {
         font-size: 12px;
     }
+    .FirstBlock,.SecondBlock,.ThirdBlock{width: 100%;}
 }
 
 @media screen and (min-width:351px) and (max-width:550px)
@@ -127,8 +126,8 @@ img {
     .job {
         font-size: 18px;
     }
+    .FirstBlock,.SecondBlock,.ThirdBlock{width: 100%;}
 }
-
 @media screen and (min-width:1074px)
 {
     .Container{
@@ -137,5 +136,6 @@ img {
     .Header{
         width: 900px;
     }
+    .FirstBlock,.SecondBlock,.ThirdBlock{width: 33%;}
 }
 
